@@ -1,6 +1,6 @@
 // HomePage
 export const CAL_CLOSE_CONTRACT = 'คำนวนค่าปิดสัญญา';
-export const STATEMENT = 'Statement';
+export const STATEMENT = 'ตรวจสอบใบแจ้งยอด';
 export const MIN_DUE = 'ยอดขั้นต่ำที่ต้องชำระเดือนนี้';
 export const DUE_DATE = 'กรุณาชำระภายในวันที่';
 export const SUMMARY_STATEMENT = 'สรุปรายการบัญชีสินเชื่อ';

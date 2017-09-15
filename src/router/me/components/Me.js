@@ -11,9 +11,7 @@ class Me extends Component {
         <View style={{ height: 200 }}>
           <MeSummary /> 
         </View>
-        <ScrollView>
-          <MeList />
-        </ScrollView>
+        <MeList />
       </View>
     );
   }
@@ -22,11 +20,7 @@ class Me extends Component {
 const styles = StyleSheet.create({
   meStyle: {         
     flex: 1,
-    flexDirection: 'column', 
-    alignItems: 'center',    
     justifyContent: 'space-between',   
-    paddingTop: 5,   
-    paddingBottom: 40, 
   },
   text: {
     color: '#fff',

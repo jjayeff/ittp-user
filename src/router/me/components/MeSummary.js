@@ -43,19 +43,22 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',           
   },
   textStyle: {
-    fontSize: 14,
+    fontSize: 17,
     paddingTop: 5,
-    color: '#153d8a'
+    color: '#153d8a',
+    fontFamily: 'Cloud-Light'    
   },
   textsmallStyle: {
-    fontSize: 12,
+    fontSize: 15,
     paddingTop: 5,
-    color: '#153d8a'
+    color: '#153d8a',
+    fontFamily: 'Cloud-Light'
   },
   textColorStyle: {
-    fontSize: 12,
+    fontSize: 15,
     backgroundColor: '#153d8a',    
-    color: '#ffffff'          
+    color: '#ffffff',
+    fontFamily: 'Cloud-Light'
   }
 });
 

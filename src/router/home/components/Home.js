@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   textStyle: {
     paddingLeft: 13,    
     fontSize: 25,
-    fontFamily: 'Cloud-Bold',
+    fontFamily: 'Kanit-Black',
     alignItems: 'center',
     color: '#3363ad',
   },

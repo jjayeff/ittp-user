@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { View, Image, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import { Header } from '../../components/common';
-import { ITTP } from '../../texts';
 import LoginForm from './components/LoginForm';
 
 class Login extends Component {
@@ -10,15 +8,10 @@ class Login extends Component {
     Actions.home();
   }
   render() {
+    const { containerStyle } = styles;
     return (
-      <View style={{ flex: 1 }}>
-        <Header headerText={ITTP} />
-        <TouchableOpacity onPress={this.onPressLogin}>
-        <Image
-          style={styles.containerStyle}
-          source={require('../../../store/image/background-login.jpg')}
-        />
-        </TouchableOpacity>
+      <View style={containerStyle}>
+        <LoginForm />
       </View>
     );
   }
@@ -26,10 +19,12 @@ class Login extends Component {
 
 const styles = StyleSheet.create({
   containerStyle: {        
+    flex: 1,
     justifyContent: 'center', 
     alignItems: 'center',
     height: '100%', 
     width: '100%',
+    backgroundColor: '#fff'
   },
 });
 

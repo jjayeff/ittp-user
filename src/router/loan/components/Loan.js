@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',   
     justifyContent: 'space-between',   
+    width: '100%'
   },
   text: {
     color: '#fff',
